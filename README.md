@@ -4,7 +4,7 @@
 **Appen widgets forkades och klonades från LenaSys github. En constraint layout fanns redan från början med i layout activity main xml. 
 Den ersattes med en linear-layout eftersom det var ett krav att lägga till en egen layout. Widgetsen imageview, textview och button lades till. 
 Det gjordes genom att skiva exempelvis <button> och lägga till alla attribut som föreslogs.  
-Ett ID för button lades till i main activity (public class MainActivity) genom denna kod:
+Ett ID för button lades till i main activity (public class MainActivity) genom denna kod:**
 
 ```
     Button button;
@@ -19,7 +19,7 @@ Ett ID för button lades till i main activity (public class MainActivity) genom 
 
 ```
 
-Det var svårt att förflytta mina widgets eftersom jag först önskade att en widget skulle ligga i en 
+**Det var svårt att förflytta mina widgets eftersom jag först önskade att en widget skulle ligga i en 
 annan widget. Men jag fick då tips på en handledning att en constraint layout skulle passa bättre,
 därför bytte jag tillbaka till en constraint layout från en linear layout.
 En constraint layout kräver att elementen (widgets) som omfattas av layouten har constraint-attribut
